@@ -15,7 +15,7 @@ source anaconda3/etc/profile.d/conda.sh
 - Creating a conda environment
 
 conda create -y --name example python=x.x
-conda activate examle
+conda activate example
 
 - Adding conda channels to an environment 
 
