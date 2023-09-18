@@ -21,14 +21,14 @@ conda activate examle
 
 conda config --env --prepend channels https://ftp.osuosl.org/pub/open-ce/current/
 conda config --env --set channel_priority strict
-* Some packages or some versions might not be available at some channels, check which channels are required for you and add them to the environment
+! Some packages or some versions might not be available at some channels, check which channels are required for you and add them to the environment
 
 - Installing packages
 
 conda install package=x.x
-* You can search for the available packages and versions by typing conda search package
-* This command will display all available versions of that package and the channel in which they are located
-* Common channels for PyTorch installation are: pytorch, conda, conda-forge...
+! You can search for the available packages and versions by typing conda search package
+! This command will display all available versions of that package and the channel in which they are located
+! Common channels for PyTorch installation are: pytorch, conda, conda-forge...
 
 - Check package version
 
