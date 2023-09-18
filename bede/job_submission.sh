@@ -22,7 +22,7 @@ ARG3=value3
 ARG4=value4
 
 python file.py args.txt
-or
+# or
 python file.py \
   arg1 $ARG1 \
   arg2 $ARG2 \
