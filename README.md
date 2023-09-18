@@ -5,3 +5,13 @@ This repo contains important information to start working on the following HPC s
 * Jade2
 
 Please feel free to add any important information that could help others
+
+ARC works with Sun of Grid Engine scheduler, some useful commands are:
+* qsub file.sh
+* qstat
+* qdel jobID
+
+Bede and Jade2 work with SLURM scheduler, some useful commands are:
+* sbatch file.sh
+* squeue -u username --start
+* scancel jobID
